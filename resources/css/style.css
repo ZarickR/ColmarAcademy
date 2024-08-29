@@ -10,13 +10,17 @@ html {
 
 /* Header Section */
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
 header .nav_bar {
   height: 4rem;
   display: flex;
   justify-content: space-between;
   margin: 0 1.5rem;
-  position: sticky;
-  z-index: 100;
 }
 
 header .logo {
@@ -43,3 +47,12 @@ header a {
 .nav {
   display: flex;
 }
+
+/* Main Content - To account for header space */
+
+.main_content {
+  position: relative;
+  top: 4rem;
+}
+
+/* Start Content Section */
