@@ -1,0 +1,45 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Header Section */
+
+header .nav_bar {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+  position: sticky;
+  z-index: 100;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+header .nav_list {
+  display: flex;
+  align-self: center;
+}
+
+header li {
+  padding: 1rem;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+}
