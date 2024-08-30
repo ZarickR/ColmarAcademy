@@ -37,7 +37,7 @@ header .nav_list {
 }
 
 header li {
-  padding: 1rem;
+  padding-left: 1rem;
 }
 
 header a {
@@ -61,12 +61,13 @@ header a {
 .start_content {
   display: flex;
   background-color: lightgray;
+  padding: 2rem 1.5rem;
 }
 
 .start_content img {
   width: 60%;
   height: auto;
-  padding: 2rem 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .start_text {
@@ -78,11 +79,62 @@ header a {
 }
 
 .button {
-  align-self: center;
-  width: 100%;
+  width: 90%;
   text-align: center;
   text-decoration: none;
   padding: 0.5rem;
   background-color: dimgray;
   color: white;
+}
+
+/* Mid Content Section */
+
+.mid_content {
+  display: flex;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.box_1 {
+  display: flex;
+  width: 60%;
+  flex-flow: column wrap;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.box_1 img {
+  width: 100%;
+  height: auto;
+}
+
+.box_2 {
+  display: flex;
+  width: 40%;
+  flex-flow: column;
+}
+
+.box_2 img {
+  width: 30%;
+  height: auto;
+  padding: 1rem;
+}
+
+.box_2_1 {
+  display: flex;
+  align-items: center;
+}
+
+.box_2_1 img {
+  padding-top: 0;
+}
+
+.box_2_2 {
+  display: flex;
+  align-items: center;
+}
+
+.box_2_3 {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
 }
