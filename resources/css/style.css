@@ -92,7 +92,6 @@ header a {
 .mid_content {
   display: flex;
   width: 100%;
-  padding: 2rem 0;
 }
 
 .box_1 {
@@ -105,16 +104,19 @@ header a {
 .box_1 img {
   width: 100%;
   height: auto;
+  padding: 2rem 0;
 }
 
 .box_2 {
   display: flex;
   width: 40%;
   flex-flow: column;
+  justify-content: center;
+  border-left: 1px solid lightgray;
 }
 
 .box_2 img {
-  width: 30%;
+  width: 35%;
   height: auto;
   padding: 1rem;
 }
@@ -122,10 +124,6 @@ header a {
 .box_2_1 {
   display: flex;
   align-items: center;
-}
-
-.box_2_1 img {
-  padding-top: 0;
 }
 
 .box_2_2 {
@@ -137,4 +135,8 @@ header a {
   display: flex;
   align-items: center;
   background-color: lightgray;
+}
+
+.asidetext {
+  width: 65%;
 }
