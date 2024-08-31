@@ -140,3 +140,63 @@ header a {
 .asidetext {
   width: 65%;
 }
+
+/* Learning Section */
+
+.learning_content {
+  background-color: whitesmoke;
+  align-content: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.learning_content h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 4.5rem 2rem 4.5rem;
+  max-width: 66rem;
+}
+
+.boxes h4 {
+  margin: 1rem;
+}
+
+.boxes p {
+  margin: 0.5rem 1rem;
+}
+
+.boxess {
+  display: flex;
+  flex-flow: column;
+  margin: 1rem;
+  width: min-content;
+  background-color: white;
+}
+
+#boxes_1.boxess {
+  margin-top: 0;
+}
+
+#boxes_2.boxess {
+  margin-top: 0;
+}
+
+#boxes_3.boxess {
+  margin-top: 0;
+}
+
+.boxess img {
+  height: auto;
+  width: 20rem;
+}
+
+.boxess p {
+  text-wrap: wrap;
+}
