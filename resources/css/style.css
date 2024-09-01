@@ -200,3 +200,29 @@ header a {
 .boxess p {
   text-wrap: wrap;
 }
+
+/* Thesis Section */
+
+.thesis_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.thesis_content h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.thesisboxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesis_content .box_2 {
+  align-self: flex-start;
+}
+
+video {
+  max-width: 100%;
+}
