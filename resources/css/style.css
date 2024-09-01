@@ -141,6 +141,18 @@ header a {
   width: 65%;
 }
 
+.asidetext h3 {
+  margin: 0.5rem 0;
+}
+
+.asidetext p {
+  margin: 0.5rem 0;
+}
+
+.asidetext a {
+  margin: 0.5rem 0;
+}
+
 /* Learning Section */
 
 .learning_content {
@@ -201,6 +213,10 @@ header a {
   text-wrap: wrap;
 }
 
+p.description {
+  margin-bottom: 1.5rem;
+}
+
 /* Thesis Section */
 
 .thesis_content {
@@ -225,6 +241,11 @@ header a {
 
 video {
   max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.thesis_content h4 {
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
