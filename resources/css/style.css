@@ -226,3 +226,16 @@ header a {
 video {
   max-width: 100%;
 }
+
+/* Footer */
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding: 1rem 2rem;
+}
+
+.tandp a {
+  padding-left: 0.5rem;
+}
