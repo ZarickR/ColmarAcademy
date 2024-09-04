@@ -52,8 +52,13 @@ header a {
 /* Main Content - To account for header space */
 
 .main_content {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 1210px;
   position: relative;
   top: 4rem;
+  margin: auto;
+  border: 1px solid grey;
 }
 
 /* Start Content Section */
@@ -268,4 +273,5 @@ video {
 
 .tandp a {
   padding-left: 0.5rem;
+  text-decoration: none;
 }
