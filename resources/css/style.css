@@ -115,8 +115,14 @@ header a {
   align-items: start;
 }
 
+.button_container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
 .button {
-  width: 14.5rem;
+  flex-basis: 14.5rem;
   text-align: center;
   text-decoration: none;
   padding: 0.5rem;
