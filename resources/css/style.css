@@ -388,6 +388,33 @@ video {
   margin-bottom: 0.5rem;
 }
 
+@media only screen and (min-width: 9.375rem) and (max-width: 50rem) {
+  .thesis_content h2 {
+    padding: 1rem 0;
+  }
+
+  .thesis_content .box_2 {
+    display: none;
+  }
+
+  .thesis_content p {
+    display: none;
+  }
+
+  .thesis_content h4 {
+    display: none;
+  }
+
+  .thesis_content .box_1 {
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .thesis_content video {
+    margin: 0;
+  }
+}
+
 /* Footer */
 
 #footer {
