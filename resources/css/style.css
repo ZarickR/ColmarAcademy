@@ -191,7 +191,7 @@ header a {
   padding: 2rem 0;
 }
 
-.box_2 img {
+.box_2 .mid_desktop_img {
   width: 35%;
   height: auto;
   padding: 1rem;
@@ -202,7 +202,7 @@ header a {
   align-items: center;
 }
 
-.box_2_1 img {
+.box_2_1 .mid_desktop_img {
   padding-top: 0;
 }
 
@@ -236,6 +236,61 @@ header a {
 .mid_content a {
   text-decoration: none;
   color: blue;
+}
+
+@media only screen and (min-width: 9.375rem) and (max-width: 50rem) {
+  .mid_content .box_1 {
+    display: none;
+  }
+
+  .mid_content .box_2 {
+    width: 100%;
+    padding: 0;
+    margin-top: 1rem;
+    border: none;
+  }
+
+  .mid_content .box_2_1 {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 4rem;
+  }
+
+  .mid_content .box_2_2 {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 4rem;
+  }
+
+  .mid_content .box_2_3 {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 2rem;
+    background-color: transparent;
+  }
+
+  .mid_content_image_mobile {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1rem 1rem;
+  }
+
+  .mid_desktop_img {
+    display: none;
+  }
+
+  .asidetext {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 50.0625rem) {
+  .mid_content_image_mobile {
+    display: none;
+  }
 }
 
 /* Learning Section */
