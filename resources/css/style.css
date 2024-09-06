@@ -112,7 +112,14 @@ header a {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  align-items: start;
+}
+
+.start_text h1 {
+  margin-bottom: 2rem;
+}
+
+.start_text h4 {
+  margin-bottom: 1.5rem;
 }
 
 .button_container {
@@ -128,6 +135,27 @@ header a {
   padding: 0.5rem;
   background-color: dimgray;
   color: white;
+}
+
+@media only screen and (min-width: 9.375rem) and (max-width: 50rem) {
+  .start_content {
+    padding: 0;
+    flex-flow: column;
+  }
+
+  .start_content img {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .start_text {
+    width: max-content;
+    margin-left: 1rem;
+  }
+
+  .button_container {
+    margin-bottom: 2rem;
+  }
 }
 
 /* Mid Content Section */
