@@ -94,6 +94,12 @@ header a {
   border: 1px solid grey;
 }
 
+@media only screen and (min-width: 9.375rem) and (max-width: 50rem) {
+  .main_content {
+    min-width: 31rem;
+  }
+}
+
 /* Start Content Section */
 
 .start_content {
