@@ -58,6 +58,7 @@ header a {
 
 @media only screen and (min-width: 9.375rem) and (max-width: 50rem) {
   header .nav_bar {
+    margin: 0;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -86,10 +87,10 @@ header a {
 .main_content {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 1210px;
+  max-width: 75.625rem;
   position: relative;
   top: 4rem;
-  margin: auto;
+  margin: 0 auto;
   border: 1px solid grey;
 }
 
@@ -297,7 +298,6 @@ header a {
 
 .learning_content {
   background-color: whitesmoke;
-  align-content: center;
   display: flex;
   flex-flow: column;
   justify-content: center;
