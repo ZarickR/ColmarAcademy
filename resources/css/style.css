@@ -92,6 +92,7 @@ header a {
   top: 4rem;
   margin: 0 auto;
   border: 1px solid grey;
+  min-width: 23.4375rem;
 }
 
 /* Start Content Section */
