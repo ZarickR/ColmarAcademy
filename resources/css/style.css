@@ -302,6 +302,7 @@ header a {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  max-width: 23.4375rem;
 }
 
 .learning_content h2 {
@@ -312,7 +313,7 @@ header a {
 .boxes {
   display: flex;
   flex-flow: row wrap;
-  padding: 0 4.5rem 2rem 4.5rem;
+  margin: 0 4.5rem 2rem 4.5rem;
   max-width: 66rem;
 }
 
