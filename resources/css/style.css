@@ -302,7 +302,7 @@ header a {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  max-width: 23.4375rem;
+  min-width: 23.4375rem;
 }
 
 .learning_content h2 {
